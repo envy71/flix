@@ -71,3 +71,5 @@ source 'http://insecure.rails-assets.org' do
 end
 
 gem 'autoprefixer-rails', '8.6.5'
+
+gem 'simple_form'
