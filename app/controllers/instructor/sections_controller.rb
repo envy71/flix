@@ -20,6 +20,7 @@ class Instructor::SectionsController < ApplicationController
       render plain: "Unauthorized", status: :unauthorized
     end
   end
+  
 
   def current_section
     @current_section ||= Section.find(params[:id])
